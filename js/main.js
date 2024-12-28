@@ -10,13 +10,17 @@
   })
 
   // Preloader
-  $(window).on('load', function () {
-    if ($('#preloader').length) {
-      $('#preloader').delay(2).fadeOut('slow', function () {
-        $(this).remove();
+  $(window).on("load", function () {
+    // Check if preloader exists before running the code
+    if ($("#preloader").length) {
+      // Immediately fade out the preloader without delay for faster load
+      $("#preloader").fadeOut(200, function () {
+        // Use a shorter fadeOut time (200ms)
+        $(this).remove(); // Remove the preloader after fading out
       });
     }
   });
+
 
   // Back to top button
   $(window).scroll(function() {
