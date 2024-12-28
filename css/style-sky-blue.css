@@ -79,7 +79,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #720283;
+  background-color: #536493;
 }
 
 .overlay-mf {
@@ -153,7 +153,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #720283;
+  background-color: #536493;
   margin: 0 auto;
 }
 
@@ -172,7 +172,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #720283;
+  background-color: #536493;
   width: 100px;
   bottom: -12px;
 }
@@ -209,12 +209,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #720283;
+  box-shadow: 0 0 0 3px #86A7FC;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #720283;
+  background-color: red;
   color: #fff;
   box-shadow: 0 0 0 3px #d7ebf8;
   transition: all 500ms ease;
@@ -239,7 +239,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #720283;
+  color: #536493;
   margin-right: 10px;
 }
 
@@ -384,7 +384,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #720283;
+  border-top: 6px solid #536493;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -422,7 +422,7 @@ a:hover {
 
 .navbar-b {
   transition: all .5s ease-in-out;
-  background-color: #720283;
+  background-color: #536493;
   padding-top: 1.563rem;
   padding-bottom: 1.563rem;
 }
@@ -495,7 +495,7 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #720283;
+  background-color: #536493;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -643,14 +643,24 @@ a:hover {
 }
 
 .intro .introo{
-  color: #fff;
+  color: #FFF;
   font-weight: 600;
   font-size: 3rem;
+}
+.intro .intro-name{
+  color: #FF9843;
+  font-weight: 600;
 }
 
 .intro .intro-subtitle {
   font-size: 1.5rem;
   font-weight: 300;
+}
+.intro .conta {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #FFDD95;
+
 }
 
 .intro .text-slider-items {
@@ -699,7 +709,7 @@ a:hover {
   border-radius: 8px;
 }
 .about-img img {
-  border: 5px solid #720283;
+  border: 5px solid #FFF9BF;
 }
 .title-left {
   font-size: 1.8rem;
@@ -713,7 +723,7 @@ a:hover {
   transition: color 0.3s ease;
 }
 .socials a:hover i {
-  color: #0056b3;
+  color: #536493;
 }
 /*======================================
 //--//-->   SERVICES
@@ -729,7 +739,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #720283;
+  background-color: #536493;
   box-shadow: 0 0 0 10px #d7ebf8;
 }
 
@@ -868,7 +878,7 @@ a:hover {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #720283;
+  color: #536493;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -901,7 +911,7 @@ a:hover {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #720283;
+  background-color: #536493;
   border-radius: 4px;
 }
 
@@ -1362,7 +1372,9 @@ footer .credits a {
   }
 
   .intro .intro-subtitle {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 400;
   }
 
   .intro-single .introo {
