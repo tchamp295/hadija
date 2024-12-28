@@ -665,7 +665,7 @@ a:hover {
   margin-top: 30px;
 }
 
-.intro-single .intro-title {
+.intro-single .introo {
   text-transform: uppercase;
   font-size: 3rem;
 }
@@ -1300,8 +1300,8 @@ footer .credits a {
     justify-content: space-between;
     max-width: 720px;
   }
-  .intro .intro-title {
-	
+  .intro .introo {
+
 	font-size: 2.5rem !important;
 }
 }
@@ -1357,15 +1357,15 @@ footer .credits a {
     margin-left: 18px;
   }
 
-  .intro .intro-title {
-    font-size: 4.5rem;
+  .intro .introo {
+    font-size: 3rem;
   }
 
   .intro .intro-subtitle {
     font-size: 2.5rem;
   }
 
-  .intro-single .intro-title {
+  .intro-single .introo {
     font-size: 3.5rem;
   }
 
@@ -1415,7 +1415,7 @@ footer .credits a {
   #home.bg-image {
 	height: 550px !important;
 }
-.intro .intro-title {
+.intro .introo {
 	font-size: 2.5rem;
 }
 #home .container {
@@ -1457,7 +1457,7 @@ footer .credits a {
   font-size: 2.0rem;
   
 }
-.intro .intro-title {
+.intro .introo {
 	
 	font-size: 2rem;
 }
